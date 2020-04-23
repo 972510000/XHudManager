@@ -1,6 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '12.0'
 
 target 'XHudManager_Example' do
   pod 'XHudManager', :path => '../'
@@ -8,6 +10,5 @@ target 'XHudManager_Example' do
   target 'XHudManager_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end

@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XModel : NSObject
 
+- (void)sayHello;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -10,4 +10,8 @@
 
 @implementation XModel
 
+- (void)sayHello {
+  NSLog(@"Hello");
+}
+
 @end

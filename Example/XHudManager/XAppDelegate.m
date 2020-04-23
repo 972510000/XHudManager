@@ -7,13 +7,15 @@
 //
 
 #import "XAppDelegate.h"
-
+#import <XHudManager/XModel.h>
 @implementation XAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+  XModel *model = [[XModel alloc]init];
+  [model sayHello];
+  
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

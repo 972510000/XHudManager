@@ -22,8 +22,9 @@ pod 'XHudManager'
 
 ## Author
 
-972510000@qq.com, 972510000@qq.com
+972510000, 972510000@qq.com
 
 ## License
 
 XHudManager is available under the MIT license. See the LICENSE file for more info.
+封装MBProgressHUD
